@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #121214;
+    color: white;
+    font-family: 'IBM Plex Sans';
+}
+
+header img{
+    margin-top: 25px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.correction{
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Cards img{
+    width: 160px;
+    height: 160px;
+    border-radius: 10px;
+}
+
+.Cards{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #9C9C9C;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    margin: 5px 15px 5px 15px;
+    border-radius: 15px;
+    border: none;
+    width: 180px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    outline: 2px solid white;
+}
+
+button:hover{
+    color: black;
+    background-color: white;
+    outline: 2px solid white;
+}
+
+.Cards img:hover{
+    border: 3px solid #FFFFFF;
+}
+
+img .plus{
+    width: 60px;
+    height: 60px;
+}
