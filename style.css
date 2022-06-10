@@ -72,7 +72,16 @@ button:hover{
     border: 3px solid #FFFFFF;
 }
 
-img .plus{
+#plus{
     width: 60px;
     height: 60px;
+}
+
+#Adicionar{
+    background-color: #1E1E20;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
